@@ -1,26 +1,38 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "minecraft:item/paper"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "avocraft:item/coal_coke"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 3
-            },
-            "model":"avocraft:item/coal_coke"
-        },
-	{
-            "predicate": {
-                "custom_model_data": 4
-            },
-            "model":"avocraft:item/accelerite_shard"
-        },
-	{
-            "predicate": {
-                "custom_model_data": 5
-            },
-            "model":"avocraft:item/accelerite_ingot"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "avocraft:item/accelerite_shard"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1003
+      },
+      "model": "avocraft:item/accelerite_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1004
+      },
+      "model": "avocraft:item/carbonado_shard"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "avocraft:item/carbonado"
+    }
+  ]
 }

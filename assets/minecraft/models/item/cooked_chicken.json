@@ -1,14 +1,14 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/pumpkin_pie"
+    "layer0": "minecraft:item/cooked_chicken"
   },
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 2001
+        "custom_model_data": 2002
       },
-      "model": "avocraft:item/berry_pie"
+      "model": "avocraft:item/fried_egg"
     }
   ]
 }

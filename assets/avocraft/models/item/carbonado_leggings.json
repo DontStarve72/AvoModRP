@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avocraft:item/carbonado_leggings",
+    "layer1": "avocraft:item/carbonado_leggings"
+  }
+}
